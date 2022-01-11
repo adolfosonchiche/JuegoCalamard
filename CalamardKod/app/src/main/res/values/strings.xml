@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">V22</string>
+    <string name="seleccion_jugador">si ya estas registrado, selecciona tu jugador</string>
+    <string name="no_lista">No estas en la lista de jugadores? Registrate</string>
+    <string name="name_user">Escribe un nombre aqui </string>
+    <string name="btn_registrar">Crear Jugador</string>
+    <string name="btn_rankin">Ver Rankin</string>
+    <string name="btn_nuevo_juego">Jugar de nuevo</string>
+    <string name="select_plauer">Selecciona un Personaje</string>
+</resources>

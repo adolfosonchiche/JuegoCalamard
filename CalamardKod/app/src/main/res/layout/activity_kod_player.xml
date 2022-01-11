@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jugador_fondo"
+    tools:context=".kodPlayer">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:background="#26A9E6"
+                android:gravity="center"
+                android:text="@string/select_plauer"
+                android:textSize="18sp" />
+
+
+
+            <ImageView
+                android:id="@+id/img_naruto"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="105dp"
+                app:srcCompat="@drawable/naruto_s"
+                 />
+
+            <ImageView
+                android:id="@+id/img_goku"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="230dp"
+                android:layout_marginTop="105dp"
+                app:srcCompat="@drawable/goku_puse1"
+                android:contentDescription="@string/btn_nuevo_juego" />
+
+            <ImageView
+                android:id="@+id/img_sasuke"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="255dp"
+                app:srcCompat="@drawable/sasuke" />
+
+            <ImageView
+                android:id="@+id/img_seya"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="230dp"
+                android:layout_marginTop="255dp"
+                app:srcCompat="@drawable/seya" />
+
+
+
+        </FrameLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
